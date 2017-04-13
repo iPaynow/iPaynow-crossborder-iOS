@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3B9DCA1E237FD900425BD7 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC3B9DC81E237FD900425BD7 /* AlipaySDK.bundle */; };
+		AC3B9DCB1E237FD900425BD7 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3B9DC91E237FD900425BD7 /* AlipaySDK.framework */; };
+		AC4421061E1E3486007A9032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4421051E1E3486007A9032 /* main.m */; };
+		AC4421091E1E3486007A9032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4421081E1E3486007A9032 /* AppDelegate.m */; };
+		AC4421111E1E3486007A9032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4421101E1E3486007A9032 /* Assets.xcassets */; };
+		AC4421141E1E3486007A9032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4421121E1E3486007A9032 /* LaunchScreen.storyboard */; };
+		AC44211F1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44211E1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.m */; };
+		AC44212B1E1E34D9007A9032 /* CrossBorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44212A1E1E34D9007A9032 /* CrossBorderViewController.m */; };
+		AC8B0BAD1E30612F000CA550 /* libipaynowCrossBorderPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B0BAC1E30612F000CA550 /* libipaynowCrossBorderPlugin.a */; };
+		ACFBAEFE1E1E52D90091CE71 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAEFD1E1E52D90091CE71 /* libz.tbd */; };
+		ACFBAF021E1E53090091CE71 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF011E1E53090091CE71 /* libc++.tbd */; };
+		ACFBAF041E1E53100091CE71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF031E1E53100091CE71 /* SystemConfiguration.framework */; };
+		ACFBAF061E1E531F0091CE71 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF051E1E531F0091CE71 /* CFNetwork.framework */; };
+		ACFBAF081E1E53260091CE71 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF071E1E53260091CE71 /* CoreMotion.framework */; };
+		ACFBAF0A1E1E53340091CE71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF091E1E53340091CE71 /* CoreGraphics.framework */; };
+		ACFBAF0C1E1E533F0091CE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF0B1E1E533F0091CE71 /* Foundation.framework */; };
+		ACFBAF0E1E1E53450091CE71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF0D1E1E53450091CE71 /* UIKit.framework */; };
+		ACFBAF101E1E53560091CE71 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF0F1E1E53560091CE71 /* CoreText.framework */; };
+		ACFBAF121E1E53660091CE71 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF111E1E53660091CE71 /* CoreTelephony.framework */; };
+		ACFBAF141E1E537A0091CE71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBAF131E1E537A0091CE71 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC44211B1E1E3486007A9032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4420F91E1E3486007A9032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4421001E1E3486007A9032;
+			remoteInfo = IPaynowCrossBorderPluginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3B9DC81E237FD900425BD7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		AC3B9DC91E237FD900425BD7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		AC4421011E1E3486007A9032 /* IPaynowCrossBorderPluginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPaynowCrossBorderPluginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4421051E1E3486007A9032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4421071E1E3486007A9032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4421081E1E3486007A9032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC4421101E1E3486007A9032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4421131E1E3486007A9032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4421151E1E3486007A9032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC44211A1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPaynowCrossBorderPluginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC44211E1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPaynowCrossBorderPluginDemoTests.m; sourceTree = "<group>"; };
+		AC4421201E1E3486007A9032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4421291E1E34D9007A9032 /* CrossBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossBorderViewController.h; sourceTree = "<group>"; };
+		AC44212A1E1E34D9007A9032 /* CrossBorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossBorderViewController.m; sourceTree = "<group>"; };
+		AC8B0BA81E306128000CA550 /* IPNCrossBorderPluginAPi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNCrossBorderPluginAPi.h; sourceTree = "<group>"; };
+		AC8B0BA91E306128000CA550 /* IPNCrossBorderPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNCrossBorderPluginDelegate.h; sourceTree = "<group>"; };
+		AC8B0BAA1E306128000CA550 /* IPNCrossBorderPreSignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNCrossBorderPreSignUtil.h; sourceTree = "<group>"; };
+		AC8B0BAB1E306128000CA550 /* IPNDESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNDESUtil.h; sourceTree = "<group>"; };
+		AC8B0BAC1E30612F000CA550 /* libipaynowCrossBorderPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipaynowCrossBorderPlugin.a; sourceTree = "<group>"; };
+		ACFBAEFD1E1E52D90091CE71 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ACFBAEFF1E1E52E20091CE71 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ACFBAF011E1E53090091CE71 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ACFBAF031E1E53100091CE71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ACFBAF051E1E531F0091CE71 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ACFBAF071E1E53260091CE71 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		ACFBAF091E1E53340091CE71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACFBAF0B1E1E533F0091CE71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACFBAF0D1E1E53450091CE71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACFBAF0F1E1E53560091CE71 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ACFBAF111E1E53660091CE71 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ACFBAF131E1E537A0091CE71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4420FE1E1E3486007A9032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFBAF141E1E537A0091CE71 /* QuartzCore.framework in Frameworks */,
+				ACFBAF121E1E53660091CE71 /* CoreTelephony.framework in Frameworks */,
+				ACFBAF101E1E53560091CE71 /* CoreText.framework in Frameworks */,
+				ACFBAF0E1E1E53450091CE71 /* UIKit.framework in Frameworks */,
+				ACFBAF0C1E1E533F0091CE71 /* Foundation.framework in Frameworks */,
+				ACFBAF0A1E1E53340091CE71 /* CoreGraphics.framework in Frameworks */,
+				ACFBAF081E1E53260091CE71 /* CoreMotion.framework in Frameworks */,
+				ACFBAF061E1E531F0091CE71 /* CFNetwork.framework in Frameworks */,
+				ACFBAF041E1E53100091CE71 /* SystemConfiguration.framework in Frameworks */,
+				AC8B0BAD1E30612F000CA550 /* libipaynowCrossBorderPlugin.a in Frameworks */,
+				AC3B9DCB1E237FD900425BD7 /* AlipaySDK.framework in Frameworks */,
+				ACFBAF021E1E53090091CE71 /* libc++.tbd in Frameworks */,
+				ACFBAEFE1E1E52D90091CE71 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4421171E1E3486007A9032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4420F81E1E3486007A9032 = {
+			isa = PBXGroup;
+			children = (
+				AC4421031E1E3486007A9032 /* IPaynowCrossBorderPluginDemo */,
+				AC44211D1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests */,
+				AC4421021E1E3486007A9032 /* Products */,
+				ACFBAEFC1E1E52D90091CE71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4421021E1E3486007A9032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4421011E1E3486007A9032 /* IPaynowCrossBorderPluginDemo.app */,
+				AC44211A1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4421031E1E3486007A9032 /* IPaynowCrossBorderPluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC4421071E1E3486007A9032 /* AppDelegate.h */,
+				AC4421081E1E3486007A9032 /* AppDelegate.m */,
+				AC4421291E1E34D9007A9032 /* CrossBorderViewController.h */,
+				AC44212A1E1E34D9007A9032 /* CrossBorderViewController.m */,
+				AC4421101E1E3486007A9032 /* Assets.xcassets */,
+				AC4421121E1E3486007A9032 /* LaunchScreen.storyboard */,
+				AC4421151E1E3486007A9032 /* Info.plist */,
+				AC4421041E1E3486007A9032 /* Supporting Files */,
+			);
+			path = IPaynowCrossBorderPluginDemo;
+			sourceTree = "<group>";
+		};
+		AC4421041E1E3486007A9032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B0BA81E306128000CA550 /* IPNCrossBorderPluginAPi.h */,
+				AC8B0BA91E306128000CA550 /* IPNCrossBorderPluginDelegate.h */,
+				AC8B0BAA1E306128000CA550 /* IPNCrossBorderPreSignUtil.h */,
+				AC8B0BAB1E306128000CA550 /* IPNDESUtil.h */,
+				AC8B0BAC1E30612F000CA550 /* libipaynowCrossBorderPlugin.a */,
+				AC3B9DC81E237FD900425BD7 /* AlipaySDK.bundle */,
+				AC3B9DC91E237FD900425BD7 /* AlipaySDK.framework */,
+				AC4421051E1E3486007A9032 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC44211D1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC44211E1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.m */,
+				AC4421201E1E3486007A9032 /* Info.plist */,
+			);
+			path = IPaynowCrossBorderPluginDemoTests;
+			sourceTree = "<group>";
+		};
+		ACFBAEFC1E1E52D90091CE71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBAF131E1E537A0091CE71 /* QuartzCore.framework */,
+				ACFBAF111E1E53660091CE71 /* CoreTelephony.framework */,
+				ACFBAF0F1E1E53560091CE71 /* CoreText.framework */,
+				ACFBAF0D1E1E53450091CE71 /* UIKit.framework */,
+				ACFBAF0B1E1E533F0091CE71 /* Foundation.framework */,
+				ACFBAF091E1E53340091CE71 /* CoreGraphics.framework */,
+				ACFBAF071E1E53260091CE71 /* CoreMotion.framework */,
+				ACFBAF051E1E531F0091CE71 /* CFNetwork.framework */,
+				ACFBAF031E1E53100091CE71 /* SystemConfiguration.framework */,
+				ACFBAF011E1E53090091CE71 /* libc++.tbd */,
+				ACFBAEFF1E1E52E20091CE71 /* libsqlite3.tbd */,
+				ACFBAEFD1E1E52D90091CE71 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4421001E1E3486007A9032 /* IPaynowCrossBorderPluginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4421231E1E3486007A9032 /* Build configuration list for PBXNativeTarget "IPaynowCrossBorderPluginDemo" */;
+			buildPhases = (
+				AC4420FD1E1E3486007A9032 /* Sources */,
+				AC4420FE1E1E3486007A9032 /* Frameworks */,
+				AC4420FF1E1E3486007A9032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPaynowCrossBorderPluginDemo;
+			productName = IPaynowCrossBorderPluginDemo;
+			productReference = AC4421011E1E3486007A9032 /* IPaynowCrossBorderPluginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4421191E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4421261E1E3486007A9032 /* Build configuration list for PBXNativeTarget "IPaynowCrossBorderPluginDemoTests" */;
+			buildPhases = (
+				AC4421161E1E3486007A9032 /* Sources */,
+				AC4421171E1E3486007A9032 /* Frameworks */,
+				AC4421181E1E3486007A9032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC44211C1E1E3486007A9032 /* PBXTargetDependency */,
+			);
+			name = IPaynowCrossBorderPluginDemoTests;
+			productName = IPaynowCrossBorderPluginDemoTests;
+			productReference = AC44211A1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4420F91E1E3486007A9032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ipaynow;
+				TargetAttributes = {
+					AC4421001E1E3486007A9032 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G46Z83B74L;
+						ProvisioningStyle = Automatic;
+					};
+					AC4421191E1E3486007A9032 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G46Z83B74L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC4421001E1E3486007A9032;
+					};
+				};
+			};
+			buildConfigurationList = AC4420FC1E1E3486007A9032 /* Build configuration list for PBXProject "IPaynowCrossBorderPluginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4420F81E1E3486007A9032;
+			productRefGroup = AC4421021E1E3486007A9032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4421001E1E3486007A9032 /* IPaynowCrossBorderPluginDemo */,
+				AC4421191E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4420FF1E1E3486007A9032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3B9DCA1E237FD900425BD7 /* AlipaySDK.bundle in Resources */,
+				AC4421141E1E3486007A9032 /* LaunchScreen.storyboard in Resources */,
+				AC4421111E1E3486007A9032 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4421181E1E3486007A9032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4420FD1E1E3486007A9032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC44212B1E1E34D9007A9032 /* CrossBorderViewController.m in Sources */,
+				AC4421091E1E3486007A9032 /* AppDelegate.m in Sources */,
+				AC4421061E1E3486007A9032 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4421161E1E3486007A9032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC44211F1E1E3486007A9032 /* IPaynowCrossBorderPluginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC44211C1E1E3486007A9032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4421001E1E3486007A9032 /* IPaynowCrossBorderPluginDemo */;
+			targetProxy = AC44211B1E1E3486007A9032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4421121E1E3486007A9032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4421131E1E3486007A9032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4421211E1E3486007A9032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC4421221E1E3486007A9032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4421241E1E3486007A9032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IPaynowCrossBorderPluginDemo",
+				);
+				INFOPLIST_FILE = IPaynowCrossBorderPluginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IPaynowCrossBorderPluginDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowCrossBorderPluginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		AC4421251E1E3486007A9032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IPaynowCrossBorderPluginDemo",
+				);
+				INFOPLIST_FILE = IPaynowCrossBorderPluginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IPaynowCrossBorderPluginDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowCrossBorderPluginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		AC4421271E1E3486007A9032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				INFOPLIST_FILE = IPaynowCrossBorderPluginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowCrossBorderPluginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPaynowCrossBorderPluginDemo.app/IPaynowCrossBorderPluginDemo";
+			};
+			name = Debug;
+		};
+		AC4421281E1E3486007A9032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				INFOPLIST_FILE = IPaynowCrossBorderPluginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowCrossBorderPluginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPaynowCrossBorderPluginDemo.app/IPaynowCrossBorderPluginDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4420FC1E1E3486007A9032 /* Build configuration list for PBXProject "IPaynowCrossBorderPluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4421211E1E3486007A9032 /* Debug */,
+				AC4421221E1E3486007A9032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4421231E1E3486007A9032 /* Build configuration list for PBXNativeTarget "IPaynowCrossBorderPluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4421241E1E3486007A9032 /* Debug */,
+				AC4421251E1E3486007A9032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4421261E1E3486007A9032 /* Build configuration list for PBXNativeTarget "IPaynowCrossBorderPluginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4421271E1E3486007A9032 /* Debug */,
+				AC4421281E1E3486007A9032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4420F91E1E3486007A9032 /* Project object */;
+}
