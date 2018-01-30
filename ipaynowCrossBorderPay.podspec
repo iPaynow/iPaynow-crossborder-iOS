@@ -2,15 +2,15 @@ Pod::Spec.new do |s|
 
   
   s.name         = "ipaynowCrossBorderPay"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "ipaynowCrossBorderPay SDK"
   s.description  = <<-DESC
                    Help developer to quickly intergrate cross border payments.
                    DESC
   s.homepage     = "http://www.ipaynow.cn"
   s.license      = "MIT"
-  s.author       = { "Hstripe" => "huangrui@ipaynow.cn" }
-  s.platform     = :ios, '6.0'
+  s.author       = { "Chuck" => "lipengchang@ipaynow.cn" }
+  s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/iPaynow/iPaynow-crossborder-iOS.git", :tag => s.version }
   s.default_subspec = 'Core'
   s.requires_arc = true

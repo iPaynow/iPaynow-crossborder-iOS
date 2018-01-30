@@ -1,12 +1,12 @@
 # iPaynow-crossborder-iOS:跨境支付接入指南
 ## 一.版本要求
-iOS SDK要求iOS6.0及以上
+iOS SDK要求iOS 7.0及以上
 ## 二.接入方法
 ### 自动接入(CocoaPod方式)
 #### 1.添加Podfile文件
 
 ```
-pod ‘ipaynowCrossBorderPay’, '~> 1.0.0'
+pod ‘ipaynowCrossBorderPay’, '~> 1.0.1'
 ```
 
 目前只支持支付宝渠道。
